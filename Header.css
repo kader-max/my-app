@@ -1,0 +1,37 @@
+.h{
+    background-color: teal;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    box-shadow:0px 5px black;
+    color: white;
+    
+}
+.p{
+    padding: 10px;
+    border: solid 5px teal;
+    margin: 25px;
+}
+.b{
+    background: rgb(255, 0, 255);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    transition: .5s;
+}
+.b:hover{
+    transition: .5s;
+    background: purple;
+    transform:scale(1.5);
+}
+h1{
+    transition: .5s;
+}
+.h h1:hover{
+    transition: .5s;
+    transform:scale(1.5);
+    background-color: rgba(158, 0, 137, 0.596);
+}
